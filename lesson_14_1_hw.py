@@ -25,5 +25,5 @@ dog.jump()
 dog.__dict__
 
 print(f"Dog's name is {dog.name.capitalize()}")
-dog.change_name(input(f'Type new name for dog: ').capitalize())
+dog.change_name(input(f'Enter a new name for the dog: ').capitalize())
 print(f"Dog's new name is {dog.name.capitalize()}")
